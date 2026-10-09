@@ -24,10 +24,10 @@ Today is Alice's Birthday - 09/10/2026
 
 Name          Birthday    Days Until
 ------------  ----------  ----------
-Chandan       27/10               18
-Ratna         16/12               68
-Mukesh        06/03              148
-Dad           08/10/1971         364
+Guy       07/01               18
+Gal         10/11               68
+Dude        03/07              148
+Someone          08/10/1971         364
 ```
 
 - People whose birthday is today show up in the "Today is ..." line, so they are **not** repeated in the table.
