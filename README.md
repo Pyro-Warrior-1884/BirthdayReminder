@@ -1,6 +1,6 @@
 # Birthday Reminder
 
-A tiny command-line tool that tells you **whose birthday is today** and **how many days are left** until everyone else's.
+A tiny command-line tool that tells you **whose birthday is today** and **how many days are left** until everyone else's. Mostly used for the termux enviornment.
 
 Type one command:
 
