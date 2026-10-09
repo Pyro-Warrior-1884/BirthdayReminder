@@ -55,9 +55,9 @@ Someone          08/10/1971         364
    One person per line, in the form `Name :- date`. For example:
 
    ```
-   Aaron :- March 28 (28/03/2004)
-   Emiley :- March 24
-   Gurusaran :- 12 May
+   Them :- March 20
+   They :- March 4
+   Robot :- 25 May
    ```
 
 3. Run the command from any folder:
@@ -122,10 +122,10 @@ The parser is deliberately forgiving. A line is `Name` and a date separated by `
 
 | Example input line             | Interpreted as        |
 | ------------------------------ | --------------------- |
-| `Aaron :- March 28 (28/03/2004)` | 28/03/2004           |
-| `Mom :- April 25 1975`         | 25/04/1975            |
-| `Emiley :- March 24`           | 24/03 (no year)       |
-| `Gurusaran :- 12 May`          | 12/05 (no year)       |
+| `Him :- January 28 (28/01/2009)` | 28/03/2004           |
+| `Her :- April 21 1989`         | 25/04/1975            |
+| `Girl :- March 27`           | 24/03 (no year)       |
+| `Guy :- 10 May`          | 12/05 (no year)       |
 
 The parenthesised `(DD/MM/YYYY)` is treated as the source of truth when present. Otherwise the parser looks for a month name, then a day number (1–31), then a 4-digit year.
 
@@ -133,8 +133,8 @@ The parenthesised `(DD/MM/YYYY)` is treated as the source of truth when present.
 
 | Example input line | Why it is skipped          |
 | ------------------ | -------------------------- |
-| `Asrita :- Dec`    | month only, no day         |
-| `Sri haran :- `    | empty date                 |
+| `Bob :- Dec`    | month only, no day         |
+| `Alice :- `    | empty date                 |
 
 ### Date edge cases
 
