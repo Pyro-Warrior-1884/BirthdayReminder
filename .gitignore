@@ -1,0 +1,12 @@
+# Personal birthday data (generated from the private source, never commit)
+birthdays.txt
+birthdays.txt.bak
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.DS_Store
+.vscode/

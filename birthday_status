@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+exec python3 "$DIR/birthday_status.py" "$@"
